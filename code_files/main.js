@@ -43,11 +43,11 @@ mobile.addEventListener("change", ()=>{
 })
 
 function mobileView(){
-    headLogo.src='Images/Brand icon mini.svg';
+    headLogo.src='images/Brand icon mini.svg';
     // Head Opt
     headOpt.innerHTML=`
 <a type="button" data-bs-toggle="offcanvas" href="#nav-options" aria-controls="navoptions">
-<img src="../Images/hamburger.svg" alt="Menu Icon" class="menu-icon"/>
+<img src="images/hamburger.svg" alt="Menu Icon" class="menu-icon"/>
 </a>
 
 
@@ -75,7 +75,7 @@ convBtn.textContent ="Convert File"
 
 
 function desktopView(){
-    headLogo.src='Images/Metafetch Icon.svg';
+    headLogo.src='images/Metafetch Icon.svg';
     headOpt.innerHTML= `
     <span>
     <a href="#">Convert File</a>
