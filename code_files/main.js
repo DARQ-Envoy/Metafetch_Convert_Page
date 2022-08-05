@@ -10,11 +10,6 @@ const convBtn = document.querySelector("#conv-btn");
 const convertingModal=  document.querySelector(".converting")
 
 
-// const hamburger = document.createElement("img")
-// hamburger.src='../images/hamburger.svg';
-// hamburger.alt="Menu Icon"
-// hamburger.class="menu-icon"
-
 let collapsed = false;
 
 profile.addEventListener("click",()=>{
@@ -72,9 +67,7 @@ function mobileView(){
     </div>
   </div>
     `
-// addpar text
 addPar.textContent="Click here to upload a file."
-// Form Button text
 convBtn.textContent ="Convert File"
 
 }
@@ -94,9 +87,5 @@ function desktopView(){
     `
 
 addPar.textContent="Click here to upload a file. You can also drag & drop it here."
-// Form Button text
 convBtn.textContent ="Convert"
 }
-   // <div class="offcanvas-header">
-    //   <button type="button" class="btn-close  text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-    // </div>
