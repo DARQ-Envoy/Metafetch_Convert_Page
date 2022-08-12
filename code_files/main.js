@@ -55,11 +55,11 @@ function mobileView(){
     <div class="offcanvas-body off-body">
     <div class="app-opt d-flex flex-column align-items-start">
         <span>
-            <a href="#">Convert File</a>
+            <a href="#" class="w-100 text-start">Convert File</a>
         </span>
 
         <span>
-            <a href="#">Saved Data</a>
+            <a href="#" class="w-100 text-start">Saved Data</a>
         </span>
     </div>
    

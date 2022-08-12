@@ -670,7 +670,7 @@ footer ul li a:hover {
 
 @media screen and (max-width: 900px) {
   main {
-    margin: 10px 0;
+    margin: 30px 0;
   }
   main .form-format {
     width: 90%;
