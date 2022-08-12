@@ -252,6 +252,7 @@ main .form-format .upload-img {
   height: 104px;
   margin: auto;
   position: relative;
+  cursor: pointer;
 }
 
 main .form-format .upload-img img {
