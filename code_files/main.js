@@ -48,12 +48,11 @@ mobile.addEventListener("change", ()=>{
 })
 
 function mobileView(){
-    console.log("Mobile");
-    headLogo.src='../Images/Brand icon mini.svg';
+    headLogo.src='Images/Brand icon mini.svg';
     // Head Opt
     headOpt.innerHTML=`
 <a type="button" data-bs-toggle="offcanvas" href="#nav-options" aria-controls="navoptions">
-<img src="../Images/hamburger.svg" alt="Menu Icon" class="menu-icon"/>
+<img src="Images/hamburger.svg" alt="Menu Icon" class="menu-icon"/>
 </a>
 
 
@@ -83,8 +82,7 @@ convBtn.textContent ="Convert File"
 
 
 function desktopView(){
-    console.log("Desktop");
-    headLogo.src='../Images/Metafetch Icon.svg';
+    headLogo.src='Images/Metafetch Icon.svg';
     headOpt.innerHTML= `
     <span>
     <a href="#">Convert File</a>
@@ -99,6 +97,3 @@ addPar.textContent="Click here to upload a file. You can also drag & drop it her
 // Form Button text
 convBtn.textContent ="Convert"
 }
-   // <div class="offcanvas-header">
-    //   <button type="button" class="btn-close  text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-    // </div>
